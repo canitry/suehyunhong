@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>suehyunhong</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navbar Section -->
@@ -16,17 +16,17 @@
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-        <!-- hamburger bars ^^ >
+        <!-- hamburger bars ^^ -->
        </div>
        <ul class="navbar__menu">
         <li class="navbar__item">
-          <a href="#home" class="navbar__links" id="home-page">Home</a>
+          <a href="index.html" class="navbar__links" id="home-page">Home</a>
         </li>
         <li class="navbar__item">
-          <a href="index.html" class="navbar__links" id="proj-page">Projects</a>
+          <a href="#home" class="navbar__links" id="proj-page">Projects</a>
         </li>
         <li class="navbar__item">
-          <a href="https://canitry.github.io/cse15l-lab-reports/" class="navbar__links" id="cse15l-page">CSE15L Journal</a>
+          <a href="https://canitry.github.io/cse15l-lab-reports/" class="navbar__links" id="cse15l-page">Journals</a>
         </li>
         <li class="navbar__item">
           <a href="#about" class="navbar__links" id="about-page">About</a>
@@ -38,17 +38,39 @@
   <!-- Project Highlights -->
   <div class="projH" id="home">
     <div class="projH__container">
-      <h1 class="hero__heading"><span>Highlight</span> on my Projects</h1>
+      <h1 class="projH__heading"><span>Highlight</span> of my Projects</h1>
+      <p class="projH__description">A collection of projects I'm proud of</p>
     </div>
   </div>
   
   <!-- About Section -->
   <div class="main" id="about">
-    <div class="main__content">
-      <h1>Hello, my name is Sue and I'm an ICAM major</h1>
+    <div class="main__container">
+      <div class="main__content">
+        <h1>About</h1>
+        <h2>Hello, my name is Sue and I'm an ICAM major</h2>
+        <p>I imagine the words ICAM come as a bit of a puzzle to many, and now you're wondering what ICAM is.
+        It is the Interdisciplinary Computing and the Arts Major, which I'm sure cleared things up enormously for everyone confused.<br>
+        In short, it is a combination of Computer science and Art, of which I am intending to lean even deeper in the Computer Science portion of through a double major with good old fashioned CS.<p>
+        <h3 id="wish">Wish me luck!</h3>
+      </div>
     </div>
   </div>
-  
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__up">
+      <a href="#home" id="up">Back to Top</a>
+    </div>
+    <section class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">SUEhyun</a>
+            </div>
+            <p class="website__rights">© Suehyun Hong 2023. All rights reserved</p>
+        </div>
+    </section>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
