@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'DM Sans', sans-serif;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 .navbar{
     background: #baccf4;
@@ -29,8 +30,8 @@
 }
 
 #navbar__logo{
-    background-color: #08042d;
-    background-image: linear-gradient(to bottom right, #4771b1 50%, #0f062c);
+    background-color: #0c0925;
+    background-image: linear-gradient(to bottom right, #4771b1 50%, #0c0925);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -237,7 +238,7 @@
 
 /* about section */
 .main {
-    background-color: #131313;
+    background-color: #0c0925;
     padding: 10rem 0;
 }
 
@@ -261,8 +262,7 @@
 
 .main__content h1{
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background: #fcb845;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -275,8 +275,8 @@
 .main__content h2 {
     font-size: 3rem;
     background: #ff8177;
-    background: -webkit-linear-gradient(to right, #9114ff,#da22ff);
-    background: linear-gradient(to right, #8f0eff,#da22ff);
+    background: -webkit-linear-gradient(to right, #5259c5,#51bfff);
+    background: linear-gradient(to right, #5259c5,#51bfff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -345,7 +345,8 @@
 
 /* Footer CSS */
 .footer__container {
-    background-color: #131313;
+    background: -webkit-linear-gradient(to right, #5259c5,#51bfff);
+    background: linear-gradient(to right, #5259c5,#51bfff);
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -363,9 +364,11 @@
 }
 
 .footer__up {
+    text-decoration: none;
     width: 100%;
     max-width: 1000px;
     display: flex;
+    font-size: 1.5rem;
     justify-content: center;
 }
 
