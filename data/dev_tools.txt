@@ -1,0 +1,12 @@
+Git
+Docker
+VS Code
+PostgreSQL
+DynamoDB
+Github Actions
+Eclipse
+GCC
+CMake
+GDB
+MongoDB
+Gradle

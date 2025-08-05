@@ -1,0 +1,10 @@
+C
+C++
+Go
+Python
+Java
+SQL
+JavaScript
+C#
+Verilog
+ARM/x86 Assembly
