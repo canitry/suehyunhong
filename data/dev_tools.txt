@@ -1,12 +1,13 @@
 Git
 Docker
+mitmproxy
 VS Code
+GDB
+GCC
 PostgreSQL
 DynamoDB
 Github Actions
 Eclipse
-GCC
 CMake
-GDB
 MongoDB
 Gradle
