@@ -78,7 +78,7 @@ h2 {
     background-color: #ffffff80;
 }
 
-.skills {
+.skills,.publications {
     min-width: 44rem;
     max-width: 73rem;
 }
