@@ -12,6 +12,7 @@
     <h1 class="name">Sue-Hyun Hong</h1>  
     <div class="card">
       <a href="./publications/pub.html">Publications</a>
+      <!-- <a href="./publications/blog_index.html">Blog</a> -->
     </div>
     <div class="slice" id="why">
       <div class="container education">
@@ -68,32 +69,101 @@
         <h2>Experience</h2>
         <div class="card selection">
           <div class="line">
-            <p>Research Under Mihir Bellare</p>
+            <p>Research Assistant -- Cryptography</p>
             <p class="depressed">June 2025 - Present</p>
           </div>
           <div class="line">
+            <p>Advisor: Professor Mihir Bellare</p>
+            <p>Research Collaborator: Rishabh Ranjan</p>
             <p>UC San Diego</p>
             <p></p>
           </div>
           <ul class="block">
-            <li>Conducting cryptography research related to leaky security of PSI (Private Set Intersection) implementations that are currently used in practice at Google and Apple.</li>
+            <li>
+              Investigating private set intersection
+              (PSI) protocols underlying Apple's Password
+              Monitoring and Google's Password Manager
+              credential-checking systems, with an emphasis
+              on their concrete security and information leakage.
+            </li>
+            <li>
+              Analyzed publicly available documentation,
+              research papers, and Chromium source code to
+              reconstruct and characterize the cryptographic
+              protocols used by these systems.
+            </li>
+            <li>
+              Conducted black-box experiments against
+              Google's deployed credential-checking
+              implementation through the reCAPTCHA
+              Google Cloud API to investigate its behavior.
+            </li>
+            <li>
+              Proved security guarantees for
+              constructions under leakage-aware definitions developed for the static-server-set setting.
+            </li>
+            <li>
+              Proved equivalence between INI and SIM security definitions for PSI with leakage in the static-server-set setting.
+            </li>
+            <li>
+              Introduced Persistent Private Set Intersection (P-PSI) to better model the credential checking setting.
+            </li>
+            <li>
+              Developed formal security definitions
+              capturing information leakage arising from
+              server set updates and from sharding
+              the server's set into smaller subsets to
+              reduce computation and communication costs.
+            </li>
+            <li>
+              Constructed a generic P-PSI protocol using oblivious pseudorandom functions (OPRFs).
+            </li>
           </ul>
         </div>
         <div class="card selection">
           <div class="line">
-            <p>Research Data Services Software Engineer Intern</p>
-            <p class="depressed">Sept. 2024 - Present</p>
+            <p>Systems Engineer Intern</p>
+            <p class="depressed">July 2026 - Sept. 2026</p>
           </div>
           <div class="line">
             <p>San Diego Supercomputer Center</p>
             <p></p>
           </div>
           <ul class="block">
-            <li>Database migration to PostgreSQL with Bash, PowerShell, and SQL scripts.</li>
-            <li>Logging using Golang Slog for API and database queries in customer project.</li>
-            <li>Contribute to the development of a database that runs within Docker containers and a web-interface for the database.</li>
-            <li>Debugged and developed functionality to sort and filter entries in database using AWS Lambda functions and DynamoDB</li>
-            <li>Worked in projects that use a CI/CD development pipeline and agile methodology.</li>
+            <li>
+              Developed a deployed utility for managing
+              cloud projects used by SDSC clients.
+            </li>
+          </ul>
+        </div>
+        <div class="card selection">
+          <div class="line">
+            <p>Research Data Services Software Engineer Intern</p>
+            <p class="depressed">Sept. 2024 - July 2026</p>
+          </div>
+          <div class="line">
+            <p>San Diego Supercomputer Center</p>
+            <p></p>
+          </div>
+          <ul class="block">
+            <li>
+              Contributed to a Dockerized web interface
+              improving access to a research center database.
+            </li>
+            <li>
+              Established CI/CD pipelines for automated
+              building, testing, and linting of frontend
+              and server-side code.
+            </li>
+            <li>
+              Developed scripts in Bash, PowerShell,
+              and SQL for database migration to PostgreSQL.
+            </li>
+            <li>
+              Developed and debugged database sorting
+              and filtering functionality using AWS Lambda
+              and DynamoDB.
+            </li>
           </ul>
         </div>
       </div>
@@ -152,6 +222,7 @@
             <button>Github Actions</button>
             <button>Claude Code</button>
             <button>CMake</button>
+            <button>InspectAI</button>
             <button>DynamoDB</button>
             <button>AWS Lambda</button>
             <button>MongoDB</button>
